@@ -83,18 +83,17 @@ h2 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: black;
     text-align: center;
-    
 }
-
 
 .project h3 {
     margin-top: 0;
     font-size: 1.4em;
 }
-img{
+
+img {
     display: flex;
     margin: 0 auto;
-    width:70%;
+    width: 70%;
 }
 
 /* Skills Section */
@@ -102,7 +101,6 @@ img{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
 
 .skills-list {
@@ -120,15 +118,6 @@ img{
     padding: 10px 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Hover Effect for Skills */
-.skills-list li {
-    background-color: #fff;
-    color: #003366;
-    padding: 10px 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -137,14 +126,25 @@ img{
     color: white;
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    
 }
 
+/* Volunteer Work Section Heading Hover Effect */
+.volunteer-entry h3 {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    color: #fff;
+}
+
+.volunteer-entry h3:hover {
+    color: #A5D6A7; /* Change to your desired hover color */
+    text-decoration: underline; /* Adds an underline on hover */
+}
+
+
 /* Contact Section */
-#contact a{
-   color: #fff;
-   list-style: none;
-   text-decoration: none;
+#contact a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
 }
 
 /* Footer */
@@ -185,9 +185,5 @@ footer {
         display: block;
         margin: 10px 0;
     }
-
-    .skills-list {
-        flex-direction: column;
-        align-items: center;
-    }
 }
+
