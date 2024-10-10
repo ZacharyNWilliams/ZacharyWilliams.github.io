@@ -128,17 +128,15 @@ img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Volunteer Work Section Heading Hover Effect */
+/* Volunteer Work Section Heading Styles */
 .volunteer-entry h3 {
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-    color: #fff;
+    color: white; /* Always white */
+    transition: text-decoration 0.3s ease; /* Keep the transition for underline effect */
 }
 
 .volunteer-entry h3:hover {
-    color: #A5D6A7; /* Change to your desired hover color */
     text-decoration: underline; /* Adds an underline on hover */
 }
-
 
 /* Contact Section */
 #contact a {
@@ -186,4 +184,5 @@ footer {
         margin: 10px 0;
     }
 }
+
 
